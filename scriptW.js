@@ -8,7 +8,7 @@ const words = ["jesus","moses","grace","saved","faith",
 "blind","birth","cheek","crowd","clean","dream","earth",
 "elect","fruit","given","honey","honor","image","judge",
 "maker","offer","power","peace","pride","plant","quiet","river",
-"sight","slave","shine","seven","stone","store","thank",
+"sight","shine","seven","stone","store","thank",
 "teach","truth","third","table","trial","works","white"];
 const blank = "White";
 const correct_spot = "Green";
