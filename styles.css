@@ -23,9 +23,7 @@ h
   justify-content: center;
   border-width: 0.1vw;
 }
-p {
- 
-}
+
 
 .box-ex{
   width: 41vw;
@@ -36,8 +34,8 @@ p {
 .box{
   width: 15vw;
   height: 15vw;
-  line-height: 8vw;
-  
+  line-height: 15vw;
+  margin: .16vw .05vw;
   display: inline-block; 
   background-color: white;   
   color: white;
