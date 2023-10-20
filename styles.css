@@ -1,56 +1,57 @@
 body {
-    color: #B1D0E0;
-    margin: 0;
-    text-align: center;
-    font-family: 'Cookie', cursive;
-    font-size:x-large;
-  }
-  
-  h1 {
-    color: #023a56;
-    font-weight: bold;
-    margin: 50px auto 0 auto;
-    font-family: 'Cookie', cursive;
-  }
-  
-  h
+  color: #B1D0E0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  font-size:x-large;
 
-  .game-board {
-    display: grid;
-    grid-template-columns: 120px 120px 120px 120px 120px;
-    grid-template-rows: 120px 120px 120px 120px 120px 120px 20px;
-    justify-content: center;
-    border-width: 2px;
-  }
-  p {
-    line-height: 2;
-  }
-  
-  .box-ex{
-    width: 780px;
-    background-color: #e3e3e3;
-    margin: 0 auto;
-    padding: 10px;
-  }
-  .box{
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-    margin: 3px 1px;
-    display: inline-block; 
-    background-color: white;   
-    color: white;
-    border-style: solid;
-    border-color: black;
-    text-align: center;
-    font-size:xxx-large;
-    font-weight: bold;
-    color:black;
-  }
-  .box span{
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .box-cols{
-    margin: 0 auto !important;
-  }
+}
+
+h1 {
+  color: #023a56;
+  font-weight: bold;
+  margin: 2.5vw auto 0 auto;
+  font-family: 'Cookie', cursive;
+}
+
+h
+
+.game-board {
+  display: grid;
+  grid-template-columns: 6.25vw 6.25vw 6.25vw 6.25vw 6.25vw 6.25vw 6.25vw;
+  grid-template-rows: 6.25vw 6.25vw 6.25vw 6.25vw 6.25vw 6.25vw 1vw;
+  justify-content: center;
+  border-width: 0.1vw;
+}
+p {
+ 
+}
+
+.box-ex{
+  width: 41vw;
+  background-color: #e3e3e3;
+  margin: 0 auto;
+  padding: .53vw
+}
+.box{
+  width: 8vw;
+  height: 8vw;
+  line-height: 8vw;
+  margin: .16vw .05vw;
+  display: inline-block; 
+  background-color: white;   
+  color: white;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  font-size:xxx-large;
+  font-weight: bold;
+  color:black;
+}
+.box span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.box-cols{
+  margin: 0 auto !important;
+}
